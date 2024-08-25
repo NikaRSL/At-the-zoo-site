@@ -1,0 +1,322 @@
+* {
+    font-family: georgia, serif
+}
+
+header {
+    text-align: center;    
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    border: solid palegreen 5px;
+    padding: 1px 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+header a:link {text-decoration: none;}
+header a:hover {
+    color: white;
+    background-color: palegreen;
+    font-weight: bold;
+    border: solid white 5px;
+    padding: 1px 3px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.banner {
+    background-image: url('https://i.imgur.com/elVeB0Q.jpeg');
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 470px;
+    width: auto;
+}
+
+.banner p {
+    visibility: hidden;
+    color: white;
+    font-size: 80px;
+    margin: 0 0 0 0;
+}
+
+.banner p em {
+    visibility: hidden;
+    font-size: 50px;
+    color: palegreen;
+    margin: 0 0 0 0;
+}
+
+body {
+    background-color: rgb(254, 127, 186);
+}
+
+#desc {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 15px;
+    width: 830px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 6px solid palegreen;
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+iframe {
+    position: sticky;
+    top: 103px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+.about #general {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    border: palegreen solid 3px;
+    border-radius: 4px;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+
+.about #general span {
+    color: palegreen;
+    font-size: 23px;
+}
+
+.about img {
+    height: auto;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#laurenbio {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
+    border: 2px solid palegreen;
+    border-radius: 4px;
+    color: rgb(254, 127, 186);
+    max-width: 320px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+#Lauren {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+#meechbio {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
+    border: 3px solid palegreen;
+    border-radius: 4px;
+    color: rgb(254, 127, 186);
+    max-width: 320px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+#Meech {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+#nikabio {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
+    border: 3px solid palegreen;
+    border-radius: 4px;
+    color: rgb(254, 127, 186);
+    max-width: 320px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+#Nika {
+    margin-top: 0;
+    margin-bottom: 0%;
+    padding-top: 0;
+}
+
+.about span {
+    padding-top: 0;
+    color: palegreen;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.about figcaption {
+    margin-top: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    text-align: center;
+    color: rgb(254, 127, 186);
+    font-size: 19px;
+    font-weight: medium;
+    max-width: 300px;
+    padding-bottom: 4px;
+}
+
+#nikacaption {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.about .bios {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    margin-top: 50px;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    gap: 5px 5px;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: palegreen;
+    grid-area: 1 / 1 / 3 / 7;
+    color: rgb(254, 127, 186);
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    font-size: 40px;
+    text-align: center;
+    font-size: 50px;
+    z-index: 5;
+}
+
+.email a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+
+}
+
+.insta {
+    background-color: white;
+    grid-area: 5 / 5 / 9 / 7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: end;
+}
+
+.insta p {
+    color: rgb(254, 127, 186);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.fa-instagram {
+    color: rgb(254, 127, 186);
+}
+
+.youtube {
+    border: solid 3px white;
+    border-radius: 2px;
+    grid-area: 4 / 1 / 8 / 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+}
+
+.fa-youtube {
+    color: palegreen;
+}
+
+.youtube p {
+    font-size: 35px;
+    color: palegreen;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.phone {
+    border-radius: 2px;
+    border: solid 3px palegreen;
+    grid-area: 2 / 6 / 6 / 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.phone p {
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+}
+
+.phone a {
+    text-decoration: none;
+    font-weight: bold;
+    color: palegreen;
+}
