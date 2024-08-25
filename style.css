@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: center;  
+    margin-bottom: 0;
 }
 
 header a {
@@ -15,7 +16,7 @@ header a {
     padding: 1px 3px;
     font-size: 70px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 
@@ -34,6 +35,7 @@ header a:hover {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+    margin-top: 30px;
 }
 
 .banner img {
@@ -51,7 +53,7 @@ body {
     align-content: center;
     justify-content: center;
     position: sticky;
-    top: 15px;
+    top: 1px;
     margin-top: 0;
     margin-bottom: 30px;
 
@@ -86,30 +88,31 @@ iframe {
 }
 
 h1 {
+    text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 18px;
 }
 
 .about #general {
     text-align: center;
     color: white;
-    font-size: 23px;
+    font-size: 40px;
     border: palegreen solid 3px;
     border-radius: 4px;
-    max-width: 1050px;
+    width: 95vw;
     margin: 0 auto;
     padding-top: 2px;
 }
 
 .about #general span {
     color: palegreen;
-    font-size: 23px;
+    font-size: 40px;
 }
 
 .about img {
     height: auto;
-    width: 300px;
+    width: 450px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -120,13 +123,13 @@ h1 {
     padding-top: 2px;
     margin-bottom: 40px;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     background: white;
     border: 2px solid palegreen;
     border-radius: 4px;
     color: rgb(254, 127, 186);
-    max-width: 320px;
+    max-width: 470px;
     max-height: 1000px;
     text-align: center;
 }
@@ -142,13 +145,13 @@ h1 {
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     background: white;
     border: 3px solid palegreen;
     border-radius: 4px;
     color: rgb(254, 127, 186);
-    max-width: 320px;
+    max-width: 470px;
     max-height: 1000px;
     text-align: center;
 }
@@ -164,13 +167,13 @@ h1 {
     margin: 0 auto;
     margin-bottom: 2px;
     text-align: center;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
     background: white;
-    border: 3px solid palegreen;
+    border: 5px solid palegreen;
     border-radius: 4px;
     color: rgb(254, 127, 186);
-    max-width: 320px;
+    max-width: 470px;
     max-height: 1000px;
     text-align: center;
 }
@@ -181,23 +184,19 @@ h1 {
     padding-top: 0;
 }
 
-.about span {
-    padding-top: 0;
-    color: palegreen;
-    font-size: 18px;
-    font-weight: medium;
-}
-
 .about figcaption {
     margin-top: 0;
     margin-left: 9px;
     margin-right: 9px;
     text-align: center;
     color: rgb(254, 127, 186);
-    font-size: 19px;
-    font-weight: medium;
-    max-width: 300px;
+    font-size: 41px;
+    font-weight: lighter;
     padding-bottom: 4px;
+}
+
+figcaption span {
+    color: palegreen;
 }
 
 #nikacaption {
@@ -219,7 +218,8 @@ footer {
 }
 
 .contact {
-    margin-top: 50px;
+    background-image: url(https://us.images.westend61.de/0001223249pw/gorilla-sitting-against-stone-wall-using-cell-phone-BLEF12687.jpg);
+    margin-top: 10px;
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -233,31 +233,32 @@ footer {
     flex-wrap: wrap;
     background-color: palegreen;
     grid-area: 1 / 1 / 3 / 7;
-    color: rgb(254, 127, 186);
+    color: white;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
     align-content: center;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-size: 50px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .email a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(254, 127, 186);
     font-size: 40px;
 
 }
 
 .insta {
     background-color: white;
-    grid-area: 5 / 5 / 9 / 7;
+    grid-area: 5 / 9 / 9 / 11;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: end;
+    z-index: 8;
 }
 
 .insta p {
@@ -280,6 +281,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-content: start;
+    z-index: 10;
 }
 
 .fa-youtube {
@@ -302,6 +304,7 @@ footer {
     justify-content: space-around;
     justify-items: center;
     align-items: center;
+    z-index: 9;
 }
 
 .phone p {
