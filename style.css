@@ -17,6 +17,9 @@ header a {
     font-size: 70px;
     border-radius: 10px;
     margin-bottom: 0;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 
@@ -75,17 +78,19 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 iframe {
     position: sticky;
     top: 103px;
     display: block;
-    margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 9px;
     margin-bottom: 15px;
+    width: 900px;
+    height: 504px;
 }
+
+/* END INDEX */
 
 h1 {
     text-align: center;
@@ -212,7 +217,7 @@ footer {
 
 .about .bios {
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
@@ -317,4 +322,112 @@ footer {
     text-decoration: none;
     font-weight: bold;
     color: palegreen;
+}
+
+@media only screen and (min-width : 1000px) {
+    header {
+        justify-content: space-between;
+    }
+    header a {
+        font-size: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    header a:hover {
+        font-size: 50px;
+    }
+
+    .desc p {
+        font-size: 60px;
+    }
+    iframe {
+        height: 364px;
+        width: 650px;
+        margin-top: 11px;
+    }
+
+    .banner {
+        margin-top: 20px;
+    }
+
+    .banner img {
+        height: 550px;
+    }
+
+    /* END INDEX */
+
+    .about #general {
+        font-size: 25px;
+    }
+
+    .about #general span {
+        font-size: 25px;
+    }
+
+    #laurenbio {
+        display: block;
+        margin: 0 auto;
+        padding-top: 2px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        background: white;
+        border: 2px solid palegreen;
+        border-radius: 4px;
+        color: rgb(254, 127, 186);
+        max-width: 350px;
+        max-height: 1000px;
+        text-align: center;
+    }
+
+    #meechbio {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            background: white;
+            border: 3px solid palegreen;
+            border-radius: 4px;
+            color: rgb(254, 127, 186);
+            max-width: 350px;
+            max-height: 1000px;
+            text-align: center;
+        }
+
+        #nikabio {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 2px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            background: white;
+            border: 5px solid palegreen;
+            border-radius: 4px;
+            color: rgb(254, 127, 186);
+            max-width: 350px;
+            max-height: 1000px;
+            text-align: center;
+        }
+
+    .about img {
+        width: 300px;
+    }
+
+    .about figcaption {
+        font-size: 25px;
+    }
+
+    .about .bios {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
 }
