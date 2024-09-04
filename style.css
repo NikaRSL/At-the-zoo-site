@@ -324,6 +324,25 @@ footer {
     color: palegreen;
 }
 
+@media only screen and (min-width: 300px) and (max-width : 870px) {
+    .banner img {
+        height: 360px;
+    }
+
+    header a {
+        font-size: 55px;
+    }
+
+    header a:hover {
+        font-size: 55px;
+    }
+
+    .desc p {
+        font-size: 50px;
+    }
+}
+
+
 @media only screen and (min-width : 1000px) {
     header {
         justify-content: space-between;
