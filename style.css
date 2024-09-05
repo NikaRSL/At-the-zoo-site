@@ -226,7 +226,7 @@ footer {
     background-image: url(https://us.images.westend61.de/0001223249pw/gorilla-sitting-against-stone-wall-using-cell-phone-BLEF12687.jpg);
     margin-top: 10px;
     display: grid;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr);
     gap: 5px 5px;
@@ -339,6 +339,28 @@ footer {
 
     .desc p {
         font-size: 50px;
+    }
+
+    /*maybe make it 95vw across the board*/
+
+    .email {
+        font-size: 20px;
+    }
+
+    .email a {
+        font-size: 30px;
+    }
+
+    .phone p {
+        font-size: 40px;
+    }
+
+    .youtube p {
+        font-size: 25px;
+    }
+
+    .insta p {
+        font-size: 25px;
     }
 }
 
