@@ -90,6 +90,11 @@ iframe {
     height: 504px;
 }
 
+/* .landscape
+    {
+        display: none;
+    } */
+
 /* END INDEX */
 
 h1 {
@@ -387,6 +392,15 @@ footer {
         width: 620px;
         margin-top: 11px;
     }
+
+    /* .landscape {
+        display: block;
+    }
+
+    .youtube-player {
+        display: none;
+    }
+        */
 
     .banner {
         margin-top: 20px;
