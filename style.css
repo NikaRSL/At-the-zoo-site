@@ -42,8 +42,8 @@ header a:hover {
 }
 
 .banner img {
-    height: 450px;
-    width: auto;
+    height: auto;
+    width: 99%;
 }
 
 body {
@@ -407,7 +407,7 @@ footer {
     }
 
     .banner img {
-        height: 550px;
+        width: 80%;
     }
 
     /* END INDEX */
